@@ -16,7 +16,7 @@
 
 
 locale: en-US
-title: "NeowayLabs"
+title: "developer-aka"
 description: "More knowing, more doing."
 # baseurl: / # the subpath of your site, e.g. "/blog"
 url: https://developer-aka.neoway.com.br/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -25,6 +25,7 @@ date_format: "%d/%m/%Y"
 read_time: true # reading time estimates, e.g. true
 words_per_minute: 200 # 200
 mathjax: true # MathJax equations, e.g. true
+remote_theme: pages-themes/merlot@v0.2.0
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
@@ -32,7 +33,7 @@ google_fonts:
     weights: "400,400i,700,700i"
 google_analytics: "UA-145693819-1"
 disqus:
-  shortname: neowaylabs # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: developer-aka # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: # site's Twitter username, e.g. "mmistakes"
 
@@ -75,6 +76,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-remote-theme
 
 # Collections
 collections:
@@ -122,3 +124,4 @@ footer_links:
   - title: Business WebSite
     url: https://neoway.com.br
     icon: fas fa-book
+    
